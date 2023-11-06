@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(185, 173, 144);
+  font-family: Bahnschrift light, sans-serif;
+
+}
+/* Style du formulaire */
+.container {
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 50px;
+}
+h1 {
+  color:black;
+}
+
+.render {
+  text-align: center;
+}
+/* Sélectionne tous les éléments avec la classe "title" */
+.title {
+  font-weight: bold; /* Texte en gras */
+  font-family: Bauhaus 93, sans-serif;
+  color: hsl(31, 70%, 20%);
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+legend {
+  color: black;
+  text-decoration: underline;
+  font-size: 20px;
+
+}
+
+/* Style des zones de saisie */
+.input-box {
+  margin-bottom: 15px;
+  border-top: 1px solid #a9d3e2;
+  color: #ffffff;
+  padding: 10px;
+  background-color: #7b6a49;
+}
+
+.input-box input, .input-box textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bc6e3d;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Autres styles CSS */
+
+
+
+/* Style des cases à cocher */
+.langue-option, .langage-option {
+  margin-top: 10px;
+  text-align: center;
+  border-top: 1px solid #315d7d;
+  color: #0f1655;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+/* Sélectionnez la balise legend avec l'attribut "align" égal à "middle" */
+legend[align="middle"] {
+  color: black; /* Couleur noire */
+  font-weight: bold; /* Texte en gras */
+  text-align: center;
+  text-decoration: underline;
+  font-family: Bauhaus 93, sans-serif;
+}
+
+/* Style du bouton de soumission */
+.submit {
+  background-color: #542407a2;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#submit :hover {
+  background-color: #9f8c56;
+}
